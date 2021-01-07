@@ -1,5 +1,5 @@
 # Web
-h1 Request/Response
+### Request/Response
 https://univer.dvfu.ru/schedule
 Request:
 	Все очень тухло(
@@ -41,7 +41,7 @@ Request:
 Response:
 	link: <https://secure.skypeassets.com>; rel=preconnect - первый раз вижу заголовок link. Кэша нет, но вот вам очень много content-security-policy-report-only - вы главное держитесь
 
-h1 Social authentication
+### Social authentication
 1. https://www.instagram.com/ В запросе отправляется логин и пароль (логин - username, пароль - enc_password). Логин передается без кеширования, а вот пароль уже разобрать сложно: ![instagram](https://github.com/ZooShow/Web/blob/master/insta.JPG)
 в ответ приходит успешная/не успешная авторизация и отгружаемая страница
 2. https://bb.dvfu.ru/ В запросе отправляется логин и пароль, ничего не кешируется (заботиться о учениках - не про двфу): ![bb](https://github.com/ZooShow/Web/blob/master/bb.JPG)
